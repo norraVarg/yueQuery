@@ -24,15 +24,15 @@ It's small, fast and **chainable** just like jQuery!
 `$('div').prepend('<ul><li>List 1</li><li>List 2</li></ul>');` The type of the argument is string.<br/>
 `$('div').prepend($.create('<p>some text</p><div></div>'));` The type of the argument is node list.<br/><br/>
 **addClass(string):** Add new classes to the elements. For example:<br/>
-`$('#ul').addClass('newClass1 newClass2 newClass3');`<br/><br/>
+`$('div').addClass('newClass1 newClass2 newClass3');`<br/><br/>
 **removeClass(string):** Remove a class from the elements. For example:<br/>
-`$('#p').removeClass('someClass');`<br/><br/>
+`$('div').removeClass('someClass');`<br/><br/>
 **toggleClass(string):** Toggle the class of the elements. For example:<br/>
-`$('#span').toggleClass('someClass');`<br/><br/>
+`$('div').toggleClass('someClass');`<br/><br/>
 **replaceClass(string, string):** Replace the an exsiting class with a new class to the elements. For example:<br/>
-`$('#h1').replaceClass('oldClass', 'newClass');`<br/><br/>
+`$('div').replaceClass('oldClass', 'newClass');`<br/><br/>
 **html([string]):** Get (when the argument is not provived) or set the html of the elements. For example:<br/>
-`$('div#id').html()` or `$('div.someClass').html('<div>some text<div><h2>some other text</h2></div></diV>')`<br/><br/>
+`$('div').html()` or `$('div.someClass').html('<div>some text<div><h2>some other text</h2></div></diV>')`<br/><br/>
 **styleColor([string]):** Get (when the argument is not provived) or set the text color of the elements. For example:<br/>
-`$('p').styleColor('#aabbcc');`<br/><br/>
+`$('div').styleColor('#aabbcc');`<br/><br/>
 ##More examples
