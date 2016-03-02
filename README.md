@@ -1,6 +1,8 @@
 #yueQuery
 ##Introduction
 yueQuery is small framework for DOM manipulation using only native javascript.
+##Featuers
+It's small, fast and **chainable** just like jQuery!
 ##Install
 1. Download the files in the "src"
 2. Open demo.html file in a browser
@@ -27,6 +29,7 @@ yueQuery is small framework for DOM manipulation using only native javascript.
 **replaceClass(string, string):** Replace the an exsiting class with a new class to the elements. For example:<br/>
 `$('#h1').replaceClass('oldClass', 'newClass');`<br/>
 **html([string]):** Get (when argument is not provived) or set the html of the elements. For example:<br/>
-`$('div#id').html()` or `$('div.someClass').html('<div>some text <div><h2>some other text</h2></div></diV>')`<br/>
+`$('div#id').html()` or `$('div.someClass').html('<div>some text<div><h2>some other text</h2></div></diV>')`<br/>
 **styleColor([string]):** Get (when argument is not provived) or set the text color of the elements. For example:<br/>
 `$('p').styleColor('#aabbcc');`<br/>
+##More examples
