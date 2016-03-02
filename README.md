@@ -19,10 +19,10 @@ It's small, fast and **chainable** just like jQuery!
 `$('div').remove();` or `$('.someClass').remove();` or `$('#id').remove();`<br/>
 **append(string/nodes):** Append a child or node a list to a DOM element. For example:<br/>
 `$('div').append('<p>I am a p tag.</p><div><h3>I am a h3 tag.</h3>some text</div>');` The type of the argument is string.<br/>
-`$('div').append($.create('<div><h2>some text</h2></div><span>some text</span>'))`' The type of the argument is node list.<br/>
+`$('div').append($.create('<div><h2>some text</h2></div><span>some text</span>'));`' The type of the argument is node list.<br/>
 **prepend(string/nodes):** Prepend a child or node a list to a DOM element. For example:<br/>
 `$('div').prepend('<ul><li>List 1</li><li>List 2</li></ul>');` The type of the argument is string.<br/>
-`$('div').prepend($.create('<p>some text</p><div></div>'))`' The type of the argument is node list.<br/>
+`$('div').prepend($.create('<p>some text</p><div></div>'));` The type of the argument is node list.<br/>
 **addClass(string):** Add new classes to the elements. For example:<br/>
 `$('#ul').addClass('newClass1 newClass2 newClass3');`<br/>
 **removeClass(string):** Remove a class from the elements. For example:<br/>
