@@ -31,9 +31,9 @@ Easy to use (similar to jQuery)<br/>
 `$('div').toggleClass('someClass');`<br/><br/>
 **replaceClass(string, string):** Replace the an exsiting class with a new class to the elements. For example:<br/>
 `$('div').replaceClass('oldClass', 'newClass');`<br/><br/>
+**styleColor(string):** Set the text color of the elements. For example:<br/>
+`$('div').styleColor('#aabbcc');`<br/><br/>
 **html([string]):** Get (when the argument is not provived) or set the html of the elements. For example:<br/>
 `$('div').html()` or `$('div.someClass').html('<div>some text<div><h2>some other text</h2></div></diV>')`<br/><br/>
-**styleColor([string]):** Get (when the argument is not provived) or set the text color of the elements. For example:<br/>
-`$('div').styleColor('#aabbcc');`<br/><br/>
 ##Demostration
 Please download all the files in the "src" repository. Open demo.html file in your web browser. Follow through the demonstration guidance in the demo.js file or write your own commands there. Then save the changes made in demo.js and refresh the browser to see the result.
