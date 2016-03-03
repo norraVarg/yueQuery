@@ -1,16 +1,17 @@
 #yueQuery
 ##Introduction
-yueQuery is small framework for DOM manipulation using only native javascript.
+yueQuery is an experimental framework for DOM manipulation using only native javascript.
 ##Featuers
-It's small, fast and **chainable** just like jQuery!
+No dependencies<br/>
+Chainable<br/>
+Easy to use (similar to jQuery)<br/>
 ##Install
-1. Download the files in the "src"
-2. Open demo.html file in a browser
+1. Download the files in the "src" repository.
+2. Open demo.html file in a browser.
 3. Run command through firebug console or editing demo.js file and refresh the page.
 
 ##How to use
-**$.create(string):** Create a DOM element or a node list from a text string. For example:<br/>
-`$.create('<div class="someClass"></div>');`<br/>
+**$.create(string):** Create a node list from a text string. For example:<br/>
 `$.create('<div class="someClass"><div><h2>some text</h2></div></div>');`<br/><br/>
 **$(string/nodes):** Select DOM elements based on tag name, class or id, or select a node list. For example:<br/>
 `$('div');` or `$('.someClass');` or `$('#id');` The type of the argument is string.<br/>
@@ -36,3 +37,4 @@ It's small, fast and **chainable** just like jQuery!
 **styleColor([string]):** Get (when the argument is not provived) or set the text color of the elements. For example:<br/>
 `$('div').styleColor('#aabbcc');`<br/><br/>
 ##More examples
+Please check demo.js file in the "src" repository.
