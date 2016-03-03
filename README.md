@@ -9,6 +9,13 @@ Easy to use (similar to jQuery)<br/>
 1. Download the yueQuery.js file in the "src" repository.
 2. Import the file in your .html file.
 
+##Demostration
+1. Please download all the files in the "src" repository.
+2. Open demo.html file in your web browser.
+3. Read and follow through the demonstration guidance in the demo.js file (recommended), or write your own commands there using the following API.
+4. Save the file and refresh the browser to see the changes.
+
+
 ##How to use
 **$.create(string):** Create a node list from a text string. For example:<br/>
 `$.create('<div class="someClass"><div><h2>some text</h2></div></div>');`<br/><br/>
@@ -35,5 +42,3 @@ Easy to use (similar to jQuery)<br/>
 `$('div').styleColor('#aabbcc');`<br/><br/>
 **html([string]):** Get (when the argument is not provived) or set the html of the elements. For example:<br/>
 `$('div').html()` or `$('div.someClass').html('<div>some text<div><h2>some other text</h2></div></diV>')`<br/><br/>
-##Demostration
-Please download all the files in the "src" repository. Open demo.html file in your web browser. Follow through the demonstration guidance in the demo.js file or write your own commands there. Then save the changes made in demo.js and refresh the browser to see the result.
