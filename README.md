@@ -6,9 +6,8 @@ No dependencies<br/>
 Chainable<br/>
 Easy to use (similar to jQuery)<br/>
 ##Install
-1. Download the files in the "src" repository.
-2. Open demo.html file in a browser.
-3. Run command through firebug console or editing demo.js file and refresh the page.
+1. Download the yueQuery.js file in the "src" repository.
+2. Import the file in your .html file.
 
 ##How to use
 **$.create(string):** Create a node list from a text string. For example:<br/>
