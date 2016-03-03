@@ -1,6 +1,6 @@
 #yueQuery
 ##Introduction
-yueQuery is an experimental framework for DOM manipulation using only native javascript.
+yueQuery is an experimental framework for DOM manipulation using only native JavaScript.
 ##Featuers
 No dependencies<br/>
 Chainable<br/>
