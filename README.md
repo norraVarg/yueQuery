@@ -1,22 +1,20 @@
-#yueQuery
-##Introduction
+# yueQuery
+## Introduction
 yueQuery is an experimental framework for DOM manipulation using only native JavaScript.
-##Featuers
-No dependencies<br/>
-Chainable<br/>
-Easy to use (similar to jQuery)<br/>
-##Install
+## Featuers
+No dependencies, Chainable, Easy to use (similar to jQuery)
+## Install
 1. Download the yueQuery.js file in the "src" repository.
 2. Import the file in your .html file.
 
-##Demostration
+## Demostration
 1. Please download all the files in the "src" repository.
 2. Open demo.html file in your web browser.
 3. Read and follow through the demonstration guidance in the demo.js file (recommended), or write your own commands there using the following API.
 4. Save the file and refresh the browser to see the changes.
 
 
-##How to use
+## How to use
 **$.create(string):** Create a node list from a text string. For example:<br/>
 `$.create('<div class="someClass"><div><h2>some text</h2></div></div>');`<br/><br/>
 **$(string/nodes):** Select DOM elements based on tag name, class or id, or select a node list. For example:<br/>
